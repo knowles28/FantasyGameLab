@@ -6,12 +6,22 @@ import Players.fighters.weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import static org.junit.Assert.*;
 
 public class BarbarianTest {
 
+    Barbarian barbarian;
+    Troll troll;
+    Sword sword;
+    Bow bow;
+
     @Before
     public void setUp() throws Exception {
+        sword = new Sword(50);
+        troll = new Troll("Geoff", 90,5);
+        barbarian = new Barbarian("Conan", 100, sword);
+        bow = new Bow(60);
     }
 
 
