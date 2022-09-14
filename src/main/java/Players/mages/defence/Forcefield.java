@@ -1,6 +1,6 @@
 package Players.mages.defence;
 
-public class Forcefield {
+public class Forcefield implements IDefend {
 
     private int defenseHealthBoost;
 
