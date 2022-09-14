@@ -1,5 +1,7 @@
 package Players.fighters;
 
+import Players.fighters.weapons.IWeapon;
+
 public class Barbarian extends Fighter {
 
     IWeapon weapon;
@@ -10,11 +12,7 @@ public class Barbarian extends Fighter {
         this.weapon = weapon;
     }
 
-    public IWeapon getWeapon() {
-        return weapon;
-    }
+//    ADD UNIQUE PROPERTIES TO FIGHTER SUBCLASSES
 
-    public void setWeapon(IWeapon weapon) {
-        this.weapon = weapon;
-    }
+
 }

@@ -1,4 +1,4 @@
-package Players.fighters;
+package Players.fighters.weapons;
 
 public interface IWeapon {
 

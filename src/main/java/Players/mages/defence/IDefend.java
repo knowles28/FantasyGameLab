@@ -1,4 +1,4 @@
-package Players.mages;
+package Players.mages.defence;
 
 public interface IDefend {
 

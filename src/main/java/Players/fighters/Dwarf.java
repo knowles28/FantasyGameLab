@@ -1,5 +1,7 @@
 package Players.fighters;
 
+import Players.fighters.weapons.IWeapon;
+
 public class Dwarf extends Fighter{
 
     IWeapon weapon;
